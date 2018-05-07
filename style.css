@@ -7,19 +7,19 @@ body{
   justify-content:space-between;
   font-family: 'Open Sans',Arial,sans-serif;
 }
-  #navbar {
-    height: 100%;
-    width: 285px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #FFFFFF;
-    overflow-x: hidden;
-    border-right:4px solid #99a2a2;
+#navbar {
+  height: 100%;
+  width: 285px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #FFFFFF;
+  overflow-x: hidden;
+  border-right:4px solid #99a2a2;
 }
 @media only screen and (max-width: 815px){
-#navbar {
+  #navbar {
     background-color: white;
     position: absolute;
     top: 0;
@@ -30,47 +30,45 @@ body{
     border: none;
     z-index: 1;
     border-bottom: 2px solid;
-}
   }
+}
 .top-left{
   margin: 10px;
-    text-align: center;
+  text-align: center;
   font-size:25px;
 }
 
 #navbar a {
-    padding: 11px;
-    text-decoration: none;
-    font-size: 18px;
-    color: #5E7A7D;
+  padding: 11px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #5E7A7D;
   background-color:white;
-    display: block;
+  display: block;
   border-top:1.5px solid #4d4e53;
-  
 }
 
 #navbar a:hover {
-    background-color: #BEFFFB;
+  background-color: #BEFFFB;
 }
 
 #main-doc{
-    margin-left: 285px; /* Same as the width of the sidenav */
-    font-size: 17px; /* Increased text to enable scrolling */
-    padding: 16px;
-    display:flex;
-    flex-direction:column;
-    justify-content:space-between;
-    line-height: 1.5;
-
+  margin-left: 285px; /* Same as the width of the sidenav */
+  font-size: 17px; /* Increased text to enable scrolling */
+  padding: 16px;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  line-height: 1.5;
 }
+
 @media screen and (max-width: 815px) {
-#main-doc{
+  #main-doc{
     max-width: 100%;
-    align-text: center;
-    
+    align-text: center; 
     flex-direction: column;
     margin-top: 216px;
-      margin-left: initial;
+    margin-left: initial;
   
   }
 }
@@ -79,16 +77,16 @@ li {
   margin-left:13px;
 }
 code{
-    display: block;
-    text-align: left;
-    position: relative;
-    word-wrap: normal;
-    line-height: 2;
-    background-color: #BEFFFB;
-    padding: 15px;
-    margin: 10px;
-    border-radius: 5px;
-    word-wrap: break-word;
+  display: block;
+  text-align: left;
+  position: relative;
+  word-wrap: normal;
+  line-height: 2;
+  background-color: #BEFFFB;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
+  word-wrap: break-word;
 }
 
 header {
